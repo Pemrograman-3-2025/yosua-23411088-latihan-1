@@ -1,41 +1,29 @@
 <html>
-    <body>
-        <style>
-            button {
-            background-color: red;
-            }
-            .button1 {
-            background-color: blueviolet;
-            }
-            </style>
-        <H1>Input HTML</H1>
-        <form>
-             <Input placeholder="Masukan Nama"  type="text"/> <br/> <br/>
-             <input placeholder="Masukan no telpon"  type="number"/> <br/> <br/>
-             <Input placeholder="Masukan sandi"  type="password"/> <br/><br/>
-             <input placeholder="upload"  type="file"/> <br/> <br/> 
-             <Input placeholder="Masukan Tanggal Lahir"  type="date"/><br/>
-             <p> Pilih jenis kelamin</p>
-             <input type="radio" name="jenis kelamin" /> Laki Laki
-             <input type="radio" name="jenis kelamin" /> Perempuan
-             <input type="radio" name="jenis kelamin" /> Khusus  <br/> 
-            </b>
-             <select>
-                <option value="001">FIX - Fak.Ilmu Komputer </option>
-                <option value="002">FB - Fak.Bisnis </option>
-                <option value="003">FT - Fak.Tekhnik </option> <br/>
-             </select>
-             <p>Pilih Hobi</p>
-             <input type="checkbox" name="hobi " value="1"/> Bernyanyi
-             <input type="checkbox" name="hobi " value="1"/> sepak bola
-             <input type="checkbox" name="hobi " value="1"/> Berenang <br/> <br/>
- 
-             <a href="index.html">
-                <button class="button">kembali</button>
-             </a>   
-             <a href="data.html">
-                <button class="button1">simpan</button>
-             </a>   
-        </form>
-    </body>
+  <body>
+    <h1>Input HTML</h1>
+    <form>
+      <input required placeholder="Masukan Nama" type="text" /> <br /><br />
+      <input placeholder="Masukan No Telp" type="number" /> <br /><br />
+      <input placeholder="Masukan Password" type="password" /> <br /><br />
+      <input placeholder="Upload Foto" type="file" /> <br /><br />
+      <input placeholder="Tanggal Lahir" type="date" />
+      <p>Pilih Jenis Kelamin</p>
+      <input type="radio" name="jenisKelamin" /> perempuan
+      <input type="radio" name="jenisKelamin" /> laki laki <br />
+      <select>
+            <option value="A01">FIK - Fak. Ilmu Komputer</option>
+            <option value="A02">FT - Fak. bisnis</option>
+            <option value="A03">FEB - Fak. hukum</option>
+      </select>
+      <p>Pilih Hoby Anda</p>
+      <input type="checkbox" name="hoby" value="1" /> main golf
+      <input type="checkbox" name="hoby" value="2" /> selancar
+      <input type="checkbox" name="hoby" value="3" /> main drum <br />
+      <br />
+      <button type="submit">Simpan</button>
+      <a href="index.html">
+        <button type="button">Kembali</button>
+      </a>
+    </form>
+  </body>
 </html>
